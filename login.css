@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d8e7e9;
+    height: 100vh;
+  }
+  #login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #000000;
+    background-color: rgb(15, 15, 15);
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+  }
+
+ #confirm{
+  background-color: rgb(15, 15, 15);
+  color: #721c1c;
+ }
+
+ #confirm:hover{
+   color: white;
+ }
+ 
+ .text-color{
+   color: #721c1c;
+ }
+
+ 

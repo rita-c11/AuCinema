@@ -1,0 +1,115 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    top: 0;
+    width: 100%;
+}
+
+
+.dropdown-menu{
+    background-color: rgb(15, 15, 15);
+    color:#721c1c;
+}
+
+
+.dropdown-item:hover{
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+.dropdown-item{
+    color: #721c1c;
+}
+
+.btn{
+    color: #721c1c;
+}
+
+.btn:hover{
+    background-color: rgb(15, 15, 15);
+  }
+
+#btn-login{
+    background-color: rgb(15, 15, 15);
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+.head-banner{
+    background-color: #bcb9b9;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+    background-image: url('https://cdn.pixabay.com/photo/2015/09/02/12/45/movie-918655_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+.sezione-icone{
+    padding-top: 2rem;
+    padding-bottom: 7rem;
+}
+
+
+.bi{
+    font-size: 50px;
+}
+
+.sezione-immagini .immagine{
+    min-height: 30rem;
+    background-size: cover;
+}
+
+.sezione-immagini .testo{
+    padding: 3rem;
+    background: rgb(15, 15, 15);
+    color:#721c1c;
+}
+
+.newsletter{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: rgb(15, 15, 15);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    margin-top: 4%;
+}
+
+#nl-btn{
+    background-color: rgb(15, 15, 15);
+
+}
+
+footer{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.list-inline-item > a{
+    font-size: 20px;
+    color: black;
+}
+
+
+@media screen and (min-widht: 768px){
+    .head-banner{
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+}
+
+.sezione-immagini .testo{
+    padding: 7rem;
+}
